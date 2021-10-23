@@ -66,11 +66,11 @@ public class StreamCollectorsUnitTest {
     @Test
     void collectors_mapping() {
         Stream<String> ohMy = Stream.of("lions", "tigers", "bears");
-        Map<Integer, Optional<Character>> map = ohMy.collect(
+        Map<Integer, Set<Object>> map = ohMy.collect(
                 Collectors.groupingBy(
                         String::length,
                         Collectors.mapping(s -> s.charAt(0),
-                                Collectors.minBy(Comparator.naturalOrder()))));
+                                Collectors.toSet())));
         System.out.println(map); // {5=Optional[b], 6=Optional[t]}
 
     }

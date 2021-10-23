@@ -50,7 +50,7 @@ public class StreamUnitTest {
         assertEquals(false, list.stream().noneMatch(predicate));
 
         //forEach()
-        s.forEach(System.out::print);
+        list.stream().forEach(System.out::print);
     }
 
     @Test
