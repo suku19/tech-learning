@@ -1,4 +1,4 @@
-package com.techlearn.stream;
+package com.techlearn.lambda.stream;
 
 import com.google.common.base.Supplier;
 import org.junit.jupiter.api.Assertions;

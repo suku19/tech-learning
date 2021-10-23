@@ -1,4 +1,4 @@
-package com.techlearn.lambda.methodreference;
+package com.techlearn.lambda.lambda.methodreference;
 
 import java.util.Comparator;
 

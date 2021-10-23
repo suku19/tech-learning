@@ -1,8 +1,7 @@
-package com.techlearn.functionalInterface;
+package com.techlearn.lambda.functionalinterface;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.techlearn.lambda.functioninterface.TriFunction;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

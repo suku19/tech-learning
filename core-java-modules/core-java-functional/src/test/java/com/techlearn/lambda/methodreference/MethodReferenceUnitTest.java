@@ -1,7 +1,7 @@
-package com.techlearn.methodreference;
+package com.techlearn.lambda.methodreference;
 
-import com.techlearn.lambda.methodreference.Student;
-import com.techlearn.lambda.methodreference.StudentGradeComparator;
+import com.techlearn.lambda.lambda.methodreference.Student;
+import com.techlearn.lambda.lambda.methodreference.StudentGradeComparator;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Test;
 

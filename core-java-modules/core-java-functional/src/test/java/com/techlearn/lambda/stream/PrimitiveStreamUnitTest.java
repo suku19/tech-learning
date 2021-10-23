@@ -1,4 +1,4 @@
-package com.techlearn.stream;
+package com.techlearn.lambda.stream;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.techlearn.functionalInterface;
+package com.techlearn.lambda.functionalinterface;
 
 
 import org.junit.jupiter.api.Test;
